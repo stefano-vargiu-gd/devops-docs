@@ -1,6 +1,7 @@
 # DevOps - Reference docs and skills
 
 This is a quick, non-exhaustive list of documentation reference and skills required for a DevOps position.
+This is a work in progress and I hope it will be regularly updated.
 
 
 
