@@ -53,12 +53,21 @@ Command line tools to know:
 * awk
 * cut
 * tee
-* networking tools: tcpdump, netstat, arp, dig, nslookup, telnet, traceroute, ifconfig/ip
+* sort
+* paste
+* sleep
+* timeout
+* uniq
+* networking tools: see the [Networking section](#Networking)
 * monitoring tools: top, htop, iotop, iostat, vmstat
 
-Be able to pipe commands and filter their output. Understand the buffering and how to disable it when filtering streaming output (for example `tcpdump -l | grep --line-buffered`).
+Be able to:
 
-A good excercise could be to filter the output of `tcpdump` to provide simplified informations on the current network traffic.
+* pipe commands and filter their output. Understand the buffering and how to disable it when filtering streaming output (for example `tcpdump -l | grep --line-buffered`)
+* join/split lines
+* manipulate csv files: print only specific columns, sort them by a specific column, etc.
+
+A good excercise could be to filter the output of `tcpdump` to provide simplified informations on the current network traffic: for example print all the ip addresse/port pairs appearing on the network traffic in a interval of 15 seconds (without repetitions).
 
 
 
@@ -85,6 +94,9 @@ Understand and be able to describe:
 * DHCP
 * ARP
 * swicth vs router
+* [private networks](https://en.wikipedia.org/wiki/Private_network)
+* networks, netmasks and CIDR notation
+* whois
 
 Be able to use the following commands:
 
@@ -95,6 +107,7 @@ Be able to use the following commands:
 * dig/nslookup
 * telnet (for debug purposes) to test if a TCP port is listening
 * wget/curl to test HTTP/HTTPS connections
+* nmap
 
 A good excercise could be to try to make the following requests via `telnet` command:
 
@@ -104,6 +117,10 @@ A good excercise could be to try to make the following requests via `telnet` com
 * POP3S - `openssl s_client -connect <pop-server>:995` and the same commands as the previous one
 * SMTP - `telnet <smtp-server> 25` and give the commands to send an emails
 * SMTPS - `openssl s_client -CApath /etc/ssl/certs/ -crlf -starttls smtp -connect <smtp-server>:587` and then same commands as the previous one
+
+Some online tool:
+
+* https://jodies.de/ipcalc
 
 
 
