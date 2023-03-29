@@ -37,10 +37,10 @@ Important background:
 * join commands (`&&` and `||`)
 * know specific functionalities of bash compared to posix shell, such as:
   - `[ expr ]` vs `[[ expr ]]`
-  - <<<'here strings'
+  - `<<<'here strings'`
   - `*.{png,jpg}` and `{0..12}` brace expansion
   - process substitution with `<(cmd)` and `>(cmd)`
-  - non-standard parameter expansions such as ${substring:1:2}, ${variable/pattern/replacement}, case conversion, etc.
+  - non-standard parameter expansions such as `${substring:1:2}`, `${variable/pattern/replacement}`, case conversion, etc.
 
 Command line tools to know:
 
