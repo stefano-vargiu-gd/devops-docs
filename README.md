@@ -174,8 +174,8 @@ I suggest to read the documentation and attend the courses related to the Google
 * monitoring & logging (Google Cloud's operations suite) - just know which are the available functionalities
 * know the main characteristics of the different data store services such as: Bigtable, BigQuery, Filestore, Datastore, etc (it's not needed to know them on depth)
 * networking services: firewall rules, port forwarding, load balancers
-* know the difference between all types of load balancers. 
-  [Choose a load balancer](https://cloud.google.com/load-balancing/docs/choosing-load-balancer). 
+* know the difference between all types of load balancers.  
+  [Choose a load balancer](https://cloud.google.com/load-balancing/docs/choosing-load-balancer).  
   it can be difficult to remember all load balancers types, but it's useful at least to know by what characteristics they differ
 
 Documentation and courses:
