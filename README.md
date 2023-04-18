@@ -311,6 +311,7 @@ More advanced topics (not really required):
 
 
 
-## Additional documentation
+## Principles and best practises
 
 * https://12factor.net/
+* https://cloud.google.com/architecture/framework/system-design/principles
