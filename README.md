@@ -59,7 +59,7 @@ Command line tools to know:
 * timeout
 * uniq
 * networking tools: see the [Networking section](#Networking)
-* monitoring tools: top, htop, iotop, iostat, vmstat
+* monitoring tools: top, htop, iotop, iostat, vmstat, free
 
 Be able to:
 
