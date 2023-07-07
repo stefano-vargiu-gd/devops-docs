@@ -30,7 +30,7 @@ Important background:
 * bash or zsh
 * file redirection (standard input, output and error)
 * parameter expansion, filename/glob expansion
-* command substitution (`\`<command>\`` or `$( command )`)
+* command substitution (`` `<command>` `` or `$( command )`)
 * importance of quoting & escaping (arguments with space or special characters)
 * options & arguments (meaning of `--` and correctly quote or escape arguments with spaces or special characters)
 * regular expressions (basic vs extended vs Perl regexps - unfortunately not all the most common commands - grep and sed - support the Perl regexps, so it's needed at least some experience on extended regular expressions, to be preferred to the basic ones)
